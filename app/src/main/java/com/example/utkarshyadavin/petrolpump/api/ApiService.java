@@ -1,6 +1,7 @@
 package com.example.utkarshyadavin.petrolpump.api;
 
 import com.example.utkarshyadavin.petrolpump.models.CustomerAddressData;
+import com.example.utkarshyadavin.petrolpump.models.data;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -14,7 +15,7 @@ public interface ApiService {
 
    @GET("/optimized/mobiconnect/customer_account/getCustomerAddress")
 
-   Call<CustomerAddressData> getCustomerAddress(
+   Call<data> getCustomerAddress(
            @Query("hashkey") String HashKey,
            @Query("customer_id") String CustomerId
             );

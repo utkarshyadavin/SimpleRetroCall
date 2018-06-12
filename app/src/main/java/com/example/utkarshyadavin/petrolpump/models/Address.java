@@ -21,15 +21,15 @@ public class Address {
     @SerializedName("city")
     @Expose
  private String City;
-    @SerializedName("region_id")
-    @Expose
- private String RegionId ;
+//    @SerializedName("region_id")
+//    @Expose
+// private String RegionId ;
     @SerializedName("region")
     @Expose
  private String Region;
-    @SerializedName("country")
-    @Expose
- private String Country;
+//    @SerializedName("country")
+//    @Expose
+// private String Country;
     @SerializedName("pincode")
     @Expose
  private String Pincode;
@@ -67,21 +67,21 @@ public class Address {
         return City;
     }
 
-    public String getRegionId() {
-        return RegionId;
-    }
+//    public String getRegionId() {
+//        return RegionId;
+//    }
 
     public String getRegion() {
         return Region;
     }
 
-    public String getCountry() {
-        return Country;
-    }
-
     public String getPincode() {
         return Pincode;
     }
+
+//    public String getCountry() {
+//        return Country;
+//    }
 
     public String getPhoneNumber() {
         return PhoneNumber;
@@ -121,17 +121,17 @@ public class Address {
         City = city;
     }
 
-    public void setRegionId(String regionId) {
-        RegionId = regionId;
-    }
+//    public void setRegionId(String regionId) {
+//        RegionId = regionId;
+//    }
 
     public void setRegion(String region) {
         Region = region;
     }
 
-    public void setCountry(String country) {
-        Country = country;
-    }
+//    public void setCountry(String country) {
+//        Country = country;
+//    }
 
     public void setPincode(String pincode) {
         Pincode = pincode;
